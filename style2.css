@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #444;
+    color: whitesmoke;
+}
+
+#contenedor{
+    width: 960px;
+    margin: auto;
+    margin-top: 2px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+#bastardos{
+    height: 80px;
+    width: 142px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+header{
+    height: 100px;
+    background:#000;
+}
+
+header {
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+}
+
+nav{
+    background: rgb(4, 0, 22);
+    height: 70px;
+    text-align: center;
+}
+
+nav img{
+    align-items:baseline;
+}
+nav a {
+    font-size: 22px;
+    line-height: 70px;
+    text-decoration: none;
+    align-items: center;
+    color: whitesmoke;
+}
+
+#contenido{
+    width: 750px;
+    height: 500px;
+    float: left;
+    
+    background: rgb(42, 42, 42);
+    margin-top: 3px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
+
+#contenido h2{
+    font-size: 40px;
+    text-align: center;
+    line-height: 88px;
+}
+
+#contenido p{
+    font-family: 'Dancing Script', cursive;
+}
+
+aside{
+    height: 500px;
+    width: 200px;
+    background: rgb(42, 42, 42);
+    margin-top: 3px;
+    float: right;
+}
+
+aside h2{
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
+}
+
+aside p{
+    font-size: 18px;
+    text-align: center;
+}
+
+aside a,img{
+    align-items: center;
+}
+
+
+footer{
+    background: #000;
+    clear: both;
+}
+
+footer h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
